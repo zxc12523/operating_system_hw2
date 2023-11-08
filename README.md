@@ -21,7 +21,7 @@ blocks on a disk.
 
 ```shell
 docker pull ntuos/mp2
-docker run -it -v $(pwd):/xv6 ntus/mp2
+docker run -it -v $(pwd)/xv6:/home/mp2/xv6 ntuos/mp2
 cat /etc/os-release
 ```
 
