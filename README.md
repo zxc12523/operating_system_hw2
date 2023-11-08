@@ -8,6 +8,15 @@
 blocks on a disk.
     - The OS can swap out “cold” memory pages to disk blocks, or swap in disk blocks to physical memory when needed.
 
+- Goal
+    - Demand Paging :
+        - The physical memory is allocated on demand only when the virtual pages are accessed.
+    - Swapping :
+        - A technique to store memory pages on a disk.
+
+- Achievement
+    - In this project I add add "Demand paging" and "Swapping" to existing page table on xv6.
+
 ## Launching
 
 ```shell
