@@ -17,3 +17,13 @@ cat /etc/os-release
 ```
 
 ## Testing
+
+1. Run the command to launch all tests at once, and the output will be saved to mp2_N.out files.
+```shell
+./run_mp2.py
+```
+2. To run an individual test program instead, run “make qemu” to enter the xv6 shell and “runmp2_N”.
+```shell
+make clean
+make qemu
+```
